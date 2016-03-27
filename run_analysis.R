@@ -49,5 +49,5 @@ for(i in 1:nrow(dataset)){
 
 #group and summarize by the subject and activity
 dataset <- group_by(dataset, Subject_ID, Activity_TYPE)
-final1 <- summarise_each(dataset, funs(mean))
+final1 <- summarize_each(dataset, funs(mean))
 View(final1)
