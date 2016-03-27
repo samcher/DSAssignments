@@ -28,3 +28,8 @@ features.txt - list of all variable names
 features_info.txt - explaination for how the variables are created and what they mean
 
 There are separate training and test data sets.
+
+Script
+
+The script (see "run_analysis.R") has detailed comments which explain how the code works.
+The test and training data sets are combined into a single data set. Using the group function in the dplyr mlibrary the data is grouped by the Subject and Activity Type columns to get the mean values.
