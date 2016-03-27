@@ -12,6 +12,7 @@ For a detailed description follow this link: http://archive.ics.uci.edu/ml/datas
 The raw data set can be downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 In this repo there are three files: 
+
 1. "CodeBook.md": it defines the variables and other relevant information of the tidy data set 
 2. "run_analysis.R": it contains the scripts used to obtain the tidy data set 
 3. "README.md": here you will find how the script works to generate the tidy data set
